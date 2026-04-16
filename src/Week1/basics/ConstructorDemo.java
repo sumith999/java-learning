@@ -14,8 +14,6 @@ class Student{
 }
 public class ConstructorDemo {
     public static void main (String[] args){
-//        Student s1 = new Student();
-//        System.out.println(s1.id + " " + s1.name);
         Student u1 = new Student("Sumith");
         Student u2  = new Student("Akhil",50);
         System.out.println(u1.name);
